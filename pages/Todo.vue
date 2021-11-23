@@ -72,10 +72,6 @@ export default defineComponent({
     const remove = (index: number) => {
       todos.value.splice(index, 1)
     }
-    // const moveDetailPage = () => {
-    //   todoStore.create(todos.value)
-    //   this.$router.push('/todo/:id')
-    // }
     return {
       todos,
       newToDoTitle,
