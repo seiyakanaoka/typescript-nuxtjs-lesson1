@@ -1,13 +1,19 @@
 <template lang="pug">
-div
-  input(type="text" :value="newToDoTitle" @input="newToDoTitle = $event.target.value")
-  button(@click="add") ADD
+div.container
+  b-row
+    b-col(sm="3")
+      div
+    b-col(sm="9")
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
-
+  setup () {
+    return {
+      
+    }
+  }
 })
 </script>

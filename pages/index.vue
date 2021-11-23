@@ -1,10 +1,16 @@
 <template lang="pug">
-div
-  Todo
+div.index-div
+  TodoStart
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent } from '@vue/composition-api'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
+
+<style lang="scss">
+.index-div {
+  width: 100%;
+}
+</style>
