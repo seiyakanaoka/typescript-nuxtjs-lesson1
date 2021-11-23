@@ -1,7 +1,7 @@
 <template lang="pug">
 div.container
   h1.app-title Hello!! Everyone!!
-  p.todo-start-text Press the button below to start 
+  p.todo-start-text Press the button below to start&nbsp;
     strong ToDo
     span !!
   nuxt-link(to="/Todo")

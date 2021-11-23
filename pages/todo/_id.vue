@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import { TodoDetail } from '~/components/TodoDetail.vue'
+import { TodoDetail } from '~/components/todo/TodoDetail.vue'
 
 export default defineComponent({
   components: {
